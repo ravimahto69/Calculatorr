@@ -8,6 +8,7 @@ arr.forEach(button => {
         if(e.target.innerHTML == '='){
             string = eval(string) 
             valuee.value = string
+            return
         }
         else if(e.target.innerHTML == 'AC'){
             string = ""
